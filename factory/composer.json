@@ -2,7 +2,7 @@
     "name": "tendry/factory",
     "autoload": {
         "psr-4": {
-            "Tendry\\Factory\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
