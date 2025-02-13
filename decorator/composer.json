@@ -1,0 +1,15 @@
+{
+    "name": "tendry/factory",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tendry",
+            "email": "tendryzephyrin@gmail.com"
+        }
+    ],
+    "require": {}
+}
