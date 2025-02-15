@@ -14,7 +14,7 @@ class EmailNotificationDecorator implements Notification
 
      public function send(string $message): string
      {
-          return $this->notification->send($message). ' envoyé par email';
+          return $this->notification->send($message). " envoyé par email \n";
      }
 
 }

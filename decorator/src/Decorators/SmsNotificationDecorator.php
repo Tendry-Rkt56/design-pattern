@@ -14,7 +14,7 @@ class SmsNotificationDecorator implements Notification
 
      public function send(string $message): string
      {
-          return $this->notification->send($message) . ' Envoyé par SMS';
+          return $this->notification->send($message) . " Envoyé par SMS \n";
      }
 
 }
